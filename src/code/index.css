@@ -1,0 +1,88 @@
+body{
+    background-color: #3d1740;
+    font-family: 'Jacques Francois Shadow', 'Jacques Francois Shadow';
+}
+
+h2{
+    color: #7d89b1;
+}
+
+h4{
+    color:#7d89b1;
+}
+
+h5{
+    color: #4b3a4f;
+}
+
+img{
+    width: 100px;
+    height: 500px;
+    margin-left: 250px;
+    border-radius: 50px;
+}
+
+.img-container{
+    width: 700px;
+    height: 550px;
+    overflow: hidden;
+}
+
+.img-container img{
+    width: 400px;
+    height: 500px;
+    object-fit:cover;
+    animation: slideLeftToRight .35s ease-in ;
+}
+
+.col{
+    animation: slideRightToLeft .35s ease-in;
+}
+
+.col h5{
+    padding-top: 10px;
+}
+
+.bi-github{
+    font-size: 25pt;
+    color: #281d3c;
+    text-shadow: 3px 2px 1px #4f2655;
+}
+.bi-linkedin{
+    font-size: 25pt;
+    color: #281d3c;
+    text-shadow: 3px 2px 1px #4f2655;
+}
+
+.aboutme{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 300px;
+    padding-top: 50px;
+
+}
+
+.nav-link:hover{
+    color: rgb(0, 0, 0);
+}
+
+.custom-navbar{
+    background-color: transparent;
+    align-items: center;
+    justify-content: start;
+}
+
+.twobuttons{
+    display: flex;
+    margin-left: 200px;
+    gap: 20px;
+    margin-right: 300px;
+}
+
+
+#icons{
+    display: flex;
+    gap: 25px;
+    margin-right: 5rem;
+}

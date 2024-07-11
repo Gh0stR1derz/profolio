@@ -1,0 +1,103 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #3d1740;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    color: #7d89b1;
+}
+
+h4{
+    color:#7d89b1;
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+.custom-navbar{
+    background-color: transparent;
+    align-items: center;
+    justify-content: start;
+}
+
+.projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.text-bg-custom{
+    background-color: #7d89b1;
+    color: #FFF;
+}
+
+.card{
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.card:hover .card-body{
+    right: 0;
+}
+
+.card-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-body{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -100%;
+    position: absolute;
+    backdrop-filter: blur(5px);
+    transition: .4s;
+}
+
+.card-body a{
+    text-decoration: none;
+}
+
+.card-btn{
+    background-color:#B5838D;
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.bi-github{
+    font-size: 25pt;
+    color: #281d3c;
+    text-shadow: 3px 2px 1px #4f2655;
+}
+.bi-linkedin{
+    font-size: 25pt;
+    color: #281d3c;
+    text-shadow: 3px 2px 1px #4f2655;
+}
+
+.twobuttons{
+    display: flex;
+    margin-left: 200px;
+    gap: 20px;
+    margin-right: 300px;
+}
+
+
+#icons{
+    display: flex;
+    gap: 25px;
+    margin-right: 5rem;
+}
